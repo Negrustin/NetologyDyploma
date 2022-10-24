@@ -1,0 +1,317 @@
+{
+  "76af4e7a8fabaf1884dfdc81f68832cb" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4cc532e9f8e6968c",
+      "status" : "failed",
+      "statusDetails" : "Element should be visible {.notification}\r\nElement: '<div class=\"notification notification_status_ok notification_has-closer notification_stick-to_right notification_theme_alfa-on-white\" displayed:false></div>'\r\nActual value: hidden\r\nScreenshot: file:/C:/Users/LENOVO/IdeaProjects/TourPaymentService/build/reports/tests/1666589017613.2.png\r\nPage source: file:/C:/Users/LENOVO/IdeaProjects/TourPaymentService/build/reports/tests/1666589017613.2.html\r\nTimeout: 10 s.",
+      "time" : {
+        "start" : 1666589006395,
+        "stop" : 1666589018048,
+        "duration" : 11653
+      }
+    } ]
+  },
+  "378c025988b34c2027127c5a7b415b0d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "244559bf0228e6a1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1666588980981,
+        "stop" : 1666588984446,
+        "duration" : 3465
+      }
+    } ]
+  },
+  "d5f04270a653579cf9523be601659eeb" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2eecfab3ed5abfaf",
+      "status" : "failed",
+      "statusDetails" : "Element should be text \"Банк отказал в проведении операции\" {.notification}\r\nElement: '<div class=\"notification notification_visible notification_status_ok notification_has-closer notification_stick-to_right notification_theme_alfa-on-white\">Успешно\nОперация одобрена Банком.</div>'\r\nActual value: text=\"Успешно\nОперация одобрена Банком.\"\r\nScreenshot: file:/C:/Users/LENOVO/IdeaProjects/TourPaymentService/build/reports/tests/1666589030277.3.png\r\nPage source: file:/C:/Users/LENOVO/IdeaProjects/TourPaymentService/build/reports/tests/1666589030277.3.html\r\nTimeout: 10 s.",
+      "time" : {
+        "start" : 1666589018101,
+        "stop" : 1666589030682,
+        "duration" : 12581
+      }
+    } ]
+  },
+  "8f82edcf995b7d3237d0d5f22eae8ad1" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "55098b8b38977995",
+      "status" : "failed",
+      "statusDetails" : "Element should be text \"Банк отказал в проведении операции\" {.notification}\r\nElement: '<div class=\"notification notification_visible notification_status_ok notification_has-closer notification_stick-to_right notification_theme_alfa-on-white\">Успешно\nОперация одобрена Банком.</div>'\r\nActual value: text=\"Успешно\nОперация одобрена Банком.\"\r\nScreenshot: file:/C:/Users/LENOVO/IdeaProjects/TourPaymentService/build/reports/tests/1666589041959.4.png\r\nPage source: file:/C:/Users/LENOVO/IdeaProjects/TourPaymentService/build/reports/tests/1666589041959.4.html\r\nTimeout: 10 s.",
+      "time" : {
+        "start" : 1666589030696,
+        "stop" : 1666589042384,
+        "duration" : 11688
+      }
+    } ]
+  },
+  "253fbad503693189f8f50dda9b0b15ca" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "43b05f83eac7fa37",
+      "status" : "failed",
+      "statusDetails" : "expected: <Марракеш> but was: <Марракэш>",
+      "time" : {
+        "start" : 1666589042433,
+        "stop" : 1666589042572,
+        "duration" : 139
+      }
+    } ]
+  },
+  "bb0760840203f01d427ae964c96cbdfb" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5d07951dcfe92036",
+      "status" : "failed",
+      "statusDetails" : "expected: <Поле обязательно для заполнения> but was: <Неверный формат>",
+      "time" : {
+        "start" : 1666588976789,
+        "stop" : 1666588978543,
+        "duration" : 1754
+      }
+    } ]
+  },
+  "493021c44d9950bb2d4ca52cb787b603" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7da74cd42a0ee3ae",
+      "status" : "passed",
+      "time" : {
+        "start" : 1666588965966,
+        "stop" : 1666588967411,
+        "duration" : 1445
+      }
+    } ]
+  },
+  "e78c94beb7ade0e54e404a6584e9a3fa" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ab6ee7ea37dd228a",
+      "status" : "failed",
+      "statusDetails" : "expected: <Поле обязательно для заполнения> but was: <Неверный формат>",
+      "time" : {
+        "start" : 1666588978556,
+        "stop" : 1666588980083,
+        "duration" : 1527
+      }
+    } ]
+  },
+  "15c208bf075d2cf4c2f863d039d9cef3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "45737695f59f9eb3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1666588984454,
+        "stop" : 1666588989305,
+        "duration" : 4851
+      }
+    } ]
+  },
+  "581a37b5a4941b95676e9b9f06465c94" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1195a6cc3099c196",
+      "status" : "failed",
+      "statusDetails" : "Element not found {By.xpath: //*[text()='Владелец']//..//*[@class='input__sub']}\r\nExpected: exist\r\nScreenshot: file:/C:/Users/LENOVO/IdeaProjects/TourPaymentService/build/reports/tests/1666588976033.0.png\r\nPage source: file:/C:/Users/LENOVO/IdeaProjects/TourPaymentService/build/reports/tests/1666588976033.0.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[text()='Владелец']//..//*[@class='input__sub']\"}",
+      "time" : {
+        "start" : 1666588970354,
+        "stop" : 1666588976757,
+        "duration" : 6403
+      }
+    } ]
+  },
+  "b42cd581938f1c0018aaf7e92ebee49d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fae0165f301df5c5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1666588967424,
+        "stop" : 1666588968852,
+        "duration" : 1428
+      }
+    } ]
+  },
+  "f447be9f95822065063dd50fdb1786b3" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4e5e35cb584f9c6a",
+      "status" : "failed",
+      "statusDetails" : "expected: <Поле обязательно для заполнения> but was: <Неверный формат>",
+      "time" : {
+        "start" : 1666588950909,
+        "stop" : 1666588965748,
+        "duration" : 14839
+      }
+    } ]
+  },
+  "433838f95bef4cd238a0c9a3d2959925" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d407fcb67c44c8ba",
+      "status" : "passed",
+      "time" : {
+        "start" : 1666588989410,
+        "stop" : 1666588994223,
+        "duration" : 4813
+      }
+    } ]
+  },
+  "2f1734131eabcfdc50bc8c9dd3d854d8" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "97b5d36030824700",
+      "status" : "failed",
+      "statusDetails" : "Element should be text \"Банк отказал в проведении операции\" {.notification}\r\nElement: '<div class=\"notification notification_visible notification_status_ok notification_has-closer notification_stick-to_right notification_theme_alfa-on-white\">Успешно\nОперация одобрена Банком.</div>'\r\nActual value: text=\"Успешно\nОперация одобрена Банком.\"\r\nScreenshot: file:/C:/Users/LENOVO/IdeaProjects/TourPaymentService/build/reports/tests/1666589005917.1.png\r\nPage source: file:/C:/Users/LENOVO/IdeaProjects/TourPaymentService/build/reports/tests/1666589005917.1.html\r\nTimeout: 10 s.",
+      "time" : {
+        "start" : 1666588994232,
+        "stop" : 1666589006386,
+        "duration" : 12154
+      }
+    } ]
+  },
+  "2407acd0f1654b2a0ee14e3ba8f9d505" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d128455ba6e53a1f",
+      "status" : "failed",
+      "statusDetails" : "expected: <Поле обязательно для заполнения> but was: <Неверный формат>",
+      "time" : {
+        "start" : 1666588968861,
+        "stop" : 1666588970333,
+        "duration" : 1472
+      }
+    } ]
+  },
+  "5d5441bfd27cab9a6ffa2dd00349977d" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "22aa2870988289c",
+      "status" : "failed",
+      "statusDetails" : "expected: <AQA: Заявка на карту> but was: <Путешествие дня>",
+      "time" : {
+        "start" : 1666589042581,
+        "stop" : 1666589042774,
+        "duration" : 193
+      }
+    } ]
+  }
+}

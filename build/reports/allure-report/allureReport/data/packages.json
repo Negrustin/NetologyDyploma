@@ -1,0 +1,301 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "ru.netology.tourPayment.test",
+    "children" : [ {
+      "name" : "FieldsVerifyTest",
+      "children" : [ {
+        "name" : "showErrorMsgIfCardNumberFieldIsEmpty",
+        "uid" : "4e5e35cb584f9c6a",
+        "parentUid" : "4ba41970cd8f942cdc90665089a0b984",
+        "status" : "failed",
+        "time" : {
+          "start" : 1666588950909,
+          "stop" : 1666588965748,
+          "duration" : 14839
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "shouldBadFormatMessageIfSetBadFormatValue",
+        "uid" : "7da74cd42a0ee3ae",
+        "parentUid" : "4ba41970cd8f942cdc90665089a0b984",
+        "status" : "passed",
+        "time" : {
+          "start" : 1666588965966,
+          "stop" : 1666588967411,
+          "duration" : 1445
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "shouldEmptyErrorMessageIfOwnerFieldIsEmpty",
+        "uid" : "fae0165f301df5c5",
+        "parentUid" : "4ba41970cd8f942cdc90665089a0b984",
+        "status" : "passed",
+        "time" : {
+          "start" : 1666588967424,
+          "stop" : 1666588968852,
+          "duration" : 1428
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "shouldEmptyErrorMessageIfYearFieldIsEmpty",
+        "uid" : "d128455ba6e53a1f",
+        "parentUid" : "4ba41970cd8f942cdc90665089a0b984",
+        "status" : "failed",
+        "time" : {
+          "start" : 1666588968861,
+          "stop" : 1666588970333,
+          "duration" : 1472
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "ShouldErrorMessageIfSetNameCyrillic",
+        "uid" : "1195a6cc3099c196",
+        "parentUid" : "4ba41970cd8f942cdc90665089a0b984",
+        "status" : "failed",
+        "time" : {
+          "start" : 1666588970354,
+          "stop" : 1666588976757,
+          "duration" : 6403
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "shouldEmptyErrorMessageIfCVVFieldIsEmpty",
+        "uid" : "5d07951dcfe92036",
+        "parentUid" : "4ba41970cd8f942cdc90665089a0b984",
+        "status" : "failed",
+        "time" : {
+          "start" : 1666588976789,
+          "stop" : 1666588978543,
+          "duration" : 1754
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "shouldEmptyErrorMessageIfMonthFieldIsEmpty",
+        "uid" : "ab6ee7ea37dd228a",
+        "parentUid" : "4ba41970cd8f942cdc90665089a0b984",
+        "status" : "failed",
+        "time" : {
+          "start" : 1666588978556,
+          "stop" : 1666588980083,
+          "duration" : 1527
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4ba41970cd8f942cdc90665089a0b984"
+    }, {
+      "name" : "PaymentHappyPathTest",
+      "children" : [ {
+        "name" : "fullCyclePaymentByDeclinedCard",
+        "uid" : "244559bf0228e6a1",
+        "parentUid" : "40922f393d170819583b07cdf5db3e0e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1666588980981,
+          "stop" : 1666588984446,
+          "duration" : 3465
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "fullCyclePaymentByApprovedCard",
+        "uid" : "45737695f59f9eb3",
+        "parentUid" : "40922f393d170819583b07cdf5db3e0e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1666588984454,
+          "stop" : 1666588989305,
+          "duration" : 4851
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "40922f393d170819583b07cdf5db3e0e"
+    }, {
+      "name" : "PaymentOnCreditTest",
+      "children" : [ {
+        "name" : "shouldStatusCodeIfPaymentOnCredit",
+        "uid" : "d407fcb67c44c8ba",
+        "parentUid" : "4c674f83addad2538b3ac25dfcbd3846",
+        "status" : "passed",
+        "time" : {
+          "start" : 1666588989410,
+          "stop" : 1666588994223,
+          "duration" : 4813
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "shouldRejectionMessageIfPaymentOfCredit",
+        "uid" : "97b5d36030824700",
+        "parentUid" : "4c674f83addad2538b3ac25dfcbd3846",
+        "status" : "failed",
+        "time" : {
+          "start" : 1666588994232,
+          "stop" : 1666589006386,
+          "duration" : 12154
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "ShouldCorrectAddBankIdToDateBase",
+        "uid" : "4cc532e9f8e6968c",
+        "parentUid" : "4c674f83addad2538b3ac25dfcbd3846",
+        "status" : "failed",
+        "time" : {
+          "start" : 1666589006395,
+          "stop" : 1666589018048,
+          "duration" : 11653
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4c674f83addad2538b3ac25dfcbd3846"
+    }, {
+      "name" : "PaymentsOnCardTest",
+      "children" : [ {
+        "name" : "shouldNotificationMsgIfCardFailed",
+        "uid" : "2eecfab3ed5abfaf",
+        "parentUid" : "ac8c19b09065123052830aae496f5c57",
+        "status" : "failed",
+        "time" : {
+          "start" : 1666589018101,
+          "stop" : 1666589030682,
+          "duration" : 12581
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "shouldRejectionMessageIfPaymentOfCard",
+        "uid" : "55098b8b38977995",
+        "parentUid" : "ac8c19b09065123052830aae496f5c57",
+        "status" : "failed",
+        "time" : {
+          "start" : 1666589030696,
+          "stop" : 1666589042384,
+          "duration" : 11688
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ac8c19b09065123052830aae496f5c57"
+    }, {
+      "name" : "СontentVerify",
+      "children" : [ {
+        "name" : "VerifyCityName",
+        "uid" : "43b05f83eac7fa37",
+        "parentUid" : "f8fc1fc0aee27088fae3be4c621e91d0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1666589042433,
+          "stop" : 1666589042572,
+          "duration" : 139
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "ShouldPageTitle",
+        "uid" : "22aa2870988289c",
+        "parentUid" : "f8fc1fc0aee27088fae3be4c621e91d0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1666589042581,
+          "stop" : 1666589042774,
+          "duration" : 193
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f8fc1fc0aee27088fae3be4c621e91d0"
+    } ],
+    "uid" : "ru.netology.tourPayment.test"
+  } ]
+}

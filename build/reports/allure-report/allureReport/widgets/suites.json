@@ -1,0 +1,59 @@
+{
+  "total" : 5,
+  "items" : [ {
+    "uid" : "a059fc37cb59524259208ca67497a1c9",
+    "name" : "ru.netology.tourPayment.test.FieldsVerifyTest",
+    "statistic" : {
+      "failed" : 5,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 7
+    }
+  }, {
+    "uid" : "099b458f848b30cbab6f649a11b1e207",
+    "name" : "ru.netology.tourPayment.test.PaymentOnCreditTest",
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "801447491d45af965afa0d8cb75d655a",
+    "name" : "ru.netology.tourPayment.test.PaymentsOnCardTest",
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "326fcd98c3a72fe87719ea7cdc152847",
+    "name" : "ru.netology.tourPayment.test.СontentVerify",
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "af42fc460ab9ff6f9ae7f44cd440950f",
+    "name" : "ru.netology.tourPayment.test.PaymentHappyPathTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  } ]
+}

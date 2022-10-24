@@ -1,0 +1,161 @@
+[ {
+  "uid" : "d128455ba6e53a1f",
+  "name" : "Кредит по данным карты, пустое поле года",
+  "time" : {
+    "start" : 1666588968861,
+    "stop" : 1666588970333,
+    "duration" : 1472
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "4e5e35cb584f9c6a",
+  "name" : "Оплата разрешённой картой, Пустое поле номера карты",
+  "time" : {
+    "start" : 1666588950909,
+    "stop" : 1666588965748,
+    "duration" : 14839
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "4cc532e9f8e6968c",
+  "name" : "Покупка в кредит, корректность записи ID в таблицу order_entity",
+  "time" : {
+    "start" : 1666589006395,
+    "stop" : 1666589018048,
+    "duration" : 11653
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "1195a6cc3099c196",
+  "name" : "Оплата по карте с именем введенным кириллицей",
+  "time" : {
+    "start" : 1666588970354,
+    "stop" : 1666588976757,
+    "duration" : 6403
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "43b05f83eac7fa37",
+  "name" : "Корректность написания названия города",
+  "time" : {
+    "start" : 1666589042433,
+    "stop" : 1666589042572,
+    "duration" : 139
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "55098b8b38977995",
+  "name" : "Покупка разрешенной картой. Отображается сообщение об отказе банком",
+  "time" : {
+    "start" : 1666589030696,
+    "stop" : 1666589042384,
+    "duration" : 11688
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "45737695f59f9eb3",
+  "name" : "Полный цикл покупки разрешённой картой : статус 'APPROVED'",
+  "time" : {
+    "start" : 1666588984454,
+    "stop" : 1666588989305,
+    "duration" : 4851
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "22aa2870988289c",
+  "name" : "Заголовок страницы соответствуют содержанию",
+  "time" : {
+    "start" : 1666589042581,
+    "stop" : 1666589042774,
+    "duration" : 193
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "7da74cd42a0ee3ae",
+  "name" : "При вводе в числовые поля данных в неверном формате отображается сообщение 'Неверный формат'",
+  "time" : {
+    "start" : 1666588965966,
+    "stop" : 1666588967411,
+    "duration" : 1445
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fae0165f301df5c5",
+  "name" : "Кредит по данным карты, пустое поле имени",
+  "time" : {
+    "start" : 1666588967424,
+    "stop" : 1666588968852,
+    "duration" : 1428
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d407fcb67c44c8ba",
+  "name" : "Покупка в кредит разрешенной картой, статус операции в БД 'APPROVED'",
+  "time" : {
+    "start" : 1666588989410,
+    "stop" : 1666588994223,
+    "duration" : 4813
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5d07951dcfe92036",
+  "name" : "Оплата  картой, Пустое поле CVV/CVC",
+  "time" : {
+    "start" : 1666588976789,
+    "stop" : 1666588978543,
+    "duration" : 1754
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "97b5d36030824700",
+  "name" : "Покупка в кредит запрещённой  картой, отображается сообщение об отказе в операции банком",
+  "time" : {
+    "start" : 1666588994232,
+    "stop" : 1666589006386,
+    "duration" : 12154
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "2eecfab3ed5abfaf",
+  "name" : "Покупка картой отсутствующей в системе. Отображается сообщения об отказе банкам.",
+  "time" : {
+    "start" : 1666589018101,
+    "stop" : 1666589030682,
+    "duration" : 12581
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "244559bf0228e6a1",
+  "name" : "Полный цикл покупки разрешённой картой : статус 'DECLINED'",
+  "time" : {
+    "start" : 1666588980981,
+    "stop" : 1666588984446,
+    "duration" : 3465
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ab6ee7ea37dd228a",
+  "name" : "Оплата  картой, Пустое месяца",
+  "time" : {
+    "start" : 1666588978556,
+    "stop" : 1666588980083,
+    "duration" : 1527
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

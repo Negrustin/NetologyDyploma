@@ -1,0 +1,228 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expected: <Поле обязательно для заполнения> but was: <Неверный формат>",
+      "children" : [ {
+        "name" : "Оплата разрешённой картой, Пустое поле номера карты",
+        "uid" : "4e5e35cb584f9c6a",
+        "parentUid" : "053c28e5f0b3475adc883eb4ea060a97",
+        "status" : "failed",
+        "time" : {
+          "start" : 1666588950909,
+          "stop" : 1666588965748,
+          "duration" : 14839
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Кредит по данным карты, пустое поле года",
+        "uid" : "d128455ba6e53a1f",
+        "parentUid" : "053c28e5f0b3475adc883eb4ea060a97",
+        "status" : "failed",
+        "time" : {
+          "start" : 1666588968861,
+          "stop" : 1666588970333,
+          "duration" : 1472
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Оплата  картой, Пустое поле CVV/CVC",
+        "uid" : "5d07951dcfe92036",
+        "parentUid" : "053c28e5f0b3475adc883eb4ea060a97",
+        "status" : "failed",
+        "time" : {
+          "start" : 1666588976789,
+          "stop" : 1666588978543,
+          "duration" : 1754
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Оплата  картой, Пустое месяца",
+        "uid" : "ab6ee7ea37dd228a",
+        "parentUid" : "053c28e5f0b3475adc883eb4ea060a97",
+        "status" : "failed",
+        "time" : {
+          "start" : 1666588978556,
+          "stop" : 1666588980083,
+          "duration" : 1527
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "053c28e5f0b3475adc883eb4ea060a97"
+    }, {
+      "name" : "Element not found {By.xpath: //*[text()='Владелец']//..//*[@class='input__sub']}\r\nExpected: exist\r\nScreenshot: file:/C:/Users/LENOVO/IdeaProjects/TourPaymentService/build/reports/tests/1666588976033.0.png\r\nPage source: file:/C:/Users/LENOVO/IdeaProjects/TourPaymentService/build/reports/tests/1666588976033.0.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[text()='Владелец']//..//*[@class='input__sub']\"}",
+      "children" : [ {
+        "name" : "Оплата по карте с именем введенным кириллицей",
+        "uid" : "1195a6cc3099c196",
+        "parentUid" : "77cf02c750f32d077741cec2c733694e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1666588970354,
+          "stop" : 1666588976757,
+          "duration" : 6403
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "77cf02c750f32d077741cec2c733694e"
+    }, {
+      "name" : "Element should be text \"Банк отказал в проведении операции\" {.notification}\r\nElement: '<div class=\"notification notification_visible notification_status_ok notification_has-closer notification_stick-to_right notification_theme_alfa-on-white\">Успешно\nОперация одобрена Банком.</div>'\r\nActual value: text=\"Успешно\nОперация одобрена Банком.\"\r\nScreenshot: file:/C:/Users/LENOVO/IdeaProjects/TourPaymentService/build/reports/tests/1666589005917.1.png\r\nPage source: file:/C:/Users/LENOVO/IdeaProjects/TourPaymentService/build/reports/tests/1666589005917.1.html\r\nTimeout: 10 s.",
+      "children" : [ {
+        "name" : "Покупка в кредит запрещённой  картой, отображается сообщение об отказе в операции банком",
+        "uid" : "97b5d36030824700",
+        "parentUid" : "df6acf9aa33886c345f2a04f6922f007",
+        "status" : "failed",
+        "time" : {
+          "start" : 1666588994232,
+          "stop" : 1666589006386,
+          "duration" : 12154
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "df6acf9aa33886c345f2a04f6922f007"
+    }, {
+      "name" : "Element should be visible {.notification}\r\nElement: '<div class=\"notification notification_status_ok notification_has-closer notification_stick-to_right notification_theme_alfa-on-white\" displayed:false></div>'\r\nActual value: hidden\r\nScreenshot: file:/C:/Users/LENOVO/IdeaProjects/TourPaymentService/build/reports/tests/1666589017613.2.png\r\nPage source: file:/C:/Users/LENOVO/IdeaProjects/TourPaymentService/build/reports/tests/1666589017613.2.html\r\nTimeout: 10 s.",
+      "children" : [ {
+        "name" : "Покупка в кредит, корректность записи ID в таблицу order_entity",
+        "uid" : "4cc532e9f8e6968c",
+        "parentUid" : "c547c80260e61ede2f7925e52516ee55",
+        "status" : "failed",
+        "time" : {
+          "start" : 1666589006395,
+          "stop" : 1666589018048,
+          "duration" : 11653
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c547c80260e61ede2f7925e52516ee55"
+    }, {
+      "name" : "Element should be text \"Банк отказал в проведении операции\" {.notification}\r\nElement: '<div class=\"notification notification_visible notification_status_ok notification_has-closer notification_stick-to_right notification_theme_alfa-on-white\">Успешно\nОперация одобрена Банком.</div>'\r\nActual value: text=\"Успешно\nОперация одобрена Банком.\"\r\nScreenshot: file:/C:/Users/LENOVO/IdeaProjects/TourPaymentService/build/reports/tests/1666589030277.3.png\r\nPage source: file:/C:/Users/LENOVO/IdeaProjects/TourPaymentService/build/reports/tests/1666589030277.3.html\r\nTimeout: 10 s.",
+      "children" : [ {
+        "name" : "Покупка картой отсутствующей в системе. Отображается сообщения об отказе банкам.",
+        "uid" : "2eecfab3ed5abfaf",
+        "parentUid" : "485b0416c64b429c525ef318871c27a5",
+        "status" : "failed",
+        "time" : {
+          "start" : 1666589018101,
+          "stop" : 1666589030682,
+          "duration" : 12581
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "485b0416c64b429c525ef318871c27a5"
+    }, {
+      "name" : "Element should be text \"Банк отказал в проведении операции\" {.notification}\r\nElement: '<div class=\"notification notification_visible notification_status_ok notification_has-closer notification_stick-to_right notification_theme_alfa-on-white\">Успешно\nОперация одобрена Банком.</div>'\r\nActual value: text=\"Успешно\nОперация одобрена Банком.\"\r\nScreenshot: file:/C:/Users/LENOVO/IdeaProjects/TourPaymentService/build/reports/tests/1666589041959.4.png\r\nPage source: file:/C:/Users/LENOVO/IdeaProjects/TourPaymentService/build/reports/tests/1666589041959.4.html\r\nTimeout: 10 s.",
+      "children" : [ {
+        "name" : "Покупка разрешенной картой. Отображается сообщение об отказе банком",
+        "uid" : "55098b8b38977995",
+        "parentUid" : "8399e3baa05fe48c07133d1789f00f82",
+        "status" : "failed",
+        "time" : {
+          "start" : 1666589030696,
+          "stop" : 1666589042384,
+          "duration" : 11688
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8399e3baa05fe48c07133d1789f00f82"
+    }, {
+      "name" : "expected: <Марракеш> but was: <Марракэш>",
+      "children" : [ {
+        "name" : "Корректность написания названия города",
+        "uid" : "43b05f83eac7fa37",
+        "parentUid" : "572c3a7a8e11c72edb67a2144a50e6fe",
+        "status" : "failed",
+        "time" : {
+          "start" : 1666589042433,
+          "stop" : 1666589042572,
+          "duration" : 139
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "572c3a7a8e11c72edb67a2144a50e6fe"
+    }, {
+      "name" : "expected: <AQA: Заявка на карту> but was: <Путешествие дня>",
+      "children" : [ {
+        "name" : "Заголовок страницы соответствуют содержанию",
+        "uid" : "22aa2870988289c",
+        "parentUid" : "ddae0d5d8af4d5d10c4a7ebc351398bf",
+        "status" : "failed",
+        "time" : {
+          "start" : 1666589042581,
+          "stop" : 1666589042774,
+          "duration" : 193
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ddae0d5d8af4d5d10c4a7ebc351398bf"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}
