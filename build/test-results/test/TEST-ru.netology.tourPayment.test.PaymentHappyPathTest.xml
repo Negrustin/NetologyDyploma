@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ru.netology.tourPayment.test.PaymentHappyPathTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-10-24T05:23:00" hostname="ALEX" time="8.329">
-  <properties/>
-  <testcase name="Полный цикл покупки разрешённой картой : статус 'DECLINED'" classname="ru.netology.tourPayment.test.PaymentHappyPathTest" time="3.468"/>
-  <testcase name="Полный цикл покупки разрешённой картой : статус 'APPROVED'" classname="ru.netology.tourPayment.test.PaymentHappyPathTest" time="4.857"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
